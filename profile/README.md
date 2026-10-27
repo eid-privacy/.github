@@ -18,6 +18,23 @@ SD-JWT / ECDSA-P256 based credential systems, running on a phone.
 | [zkp-vault](https://github.com/eid-privacy/zkp-vault) | Knowledge vault on ZKP papers, proof systems, primitives, and tooling. Rendered at [eid-privacy.github.io/zkp-vault](https://eid-privacy.github.io/zkp-vault/). |
 | [zkp-reports](https://github.com/eid-privacy/zkp-reports) | Grant reports (MS2, final MS4), the [Taxonomy of Digital Identity Systems](https://github.com/eid-privacy/zkp-reports/releases/download/latest/eid-privacy-taxonomy-eid.pdf) draft paper (first part of a "Systematization of Knowledge" paper on e-ID), and the zkSecurity security review. Report PDFs in the [latest release](https://github.com/eid-privacy/zkp-reports/releases/tag/latest). |
 
+## How to cite
+
+The reports and the main code are archived on Zenodo, in the
+[eid-privacy community](https://zenodo.org/communities/eid-privacy).
+Each DOI resolves to the latest version.
+
+| Artifact | DOI |
+| --- | --- |
+| Final report (MS4) | [10.5281/zenodo.23694203](https://doi.org/10.5281/zenodo.23694203) |
+| Proof-of-concept report (MS2) | [10.5281/zenodo.23694201](https://doi.org/10.5281/zenodo.23694201) |
+| Taxonomy for Privacy-Preserving Electronic Identities (preprint) | [10.5281/zenodo.23694217](https://doi.org/10.5281/zenodo.23694217) |
+| spartan-backend | [10.5281/zenodo.23694668](https://doi.org/10.5281/zenodo.23694668) |
+| zkp-pocs | [10.5281/zenodo.23694674](https://doi.org/10.5281/zenodo.23694674) |
+| zkp-android-spartan | [10.5281/zenodo.23694719](https://doi.org/10.5281/zenodo.23694719) |
+
+BibTeX for the reports: [zkp-reports](https://github.com/eid-privacy/zkp-reports#how-to-cite).
+
 ## Our Code
 
 | Repository | Content |
