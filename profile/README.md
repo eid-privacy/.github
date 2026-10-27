@@ -25,7 +25,7 @@ SD-JWT / ECDSA-P256 based credential systems, running on a phone.
 | [spartan-backend](https://github.com/eid-privacy/spartan-backend) | Spartan backend for Noir, with the e-ID circuits (SD-JWT verification, ECDSA-P256 holder binding over Tom-256). |
 | [zkp-pocs](https://github.com/eid-privacy/zkp-pocs) | Proofs of concept for privacy-preserving e-ID: BBS + Bulletproofs (docknetwork/crypto) and Noir/UltraHONK circuits, with benchmarks. |
 | [zkp-android](https://github.com/eid-privacy/zkp-android) | Android app generating and verifying Noir proofs (UltraHONK via mopro) on the phone. |
-| zkp-android-spartan _(coming soon)_ | Android app benchmarking proof generation and verification with the Spartan backend. |
+| [zkp-android-spartan](https://github.com/eid-privacy/zkp-android-spartan) | Android app benchmarking proof generation and verification with the Spartan backend. |
 | [ark-tom256](https://github.com/eid-privacy/ark-tom256) | The Tom-256 curve for arkworks, whose order equals the base field of P-256. |
 | [knowledge-graph](https://github.com/eid-privacy/knowledge-graph) | Python tool building a citation knowledge graph of ZKP papers from CrossRef and OpenCitations. |
 | [flakes](https://github.com/eid-privacy/flakes) | Nix flakes (with a Cachix binary cache) for pinned Noir, Barretenberg, and `nargo-t256` versions, usable from devbox. |
