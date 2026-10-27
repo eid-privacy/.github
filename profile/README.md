@@ -16,7 +16,7 @@ SD-JWT / ECDSA-P256 based credential systems, running on a phone.
 | --- | --- |
 | [eid-privacy.github.io](https://github.com/eid-privacy/eid-privacy.github.io) | Technical blog of the project: [eid-privacy.github.io](https://eid-privacy.github.io/). |
 | [zkp-vault](https://github.com/eid-privacy/zkp-vault) | Knowledge vault on ZKP papers, proof systems, primitives, and tooling. Rendered at [eid-privacy.github.io/zkp-vault](https://eid-privacy.github.io/zkp-vault/). |
-| [zkp-reports](https://github.com/eid-privacy/zkp-reports) | Grant reports (MS2, final MS4), the [Taxonomy of Digital Identity Systems](https://github.com/eid-privacy/zkp-reports/releases/download/latest/taxonomy-eid-paper.pdf) draft paper (first part of a "Systematization of Knowledge" paper on e-ID), and the zkSecurity security review. Report PDFs in the [latest release](https://github.com/eid-privacy/zkp-reports/releases/tag/latest). |
+| [zkp-reports](https://github.com/eid-privacy/zkp-reports) | Grant reports (MS2, final MS4), the [Taxonomy of Digital Identity Systems](https://github.com/eid-privacy/zkp-reports/releases/download/latest/eid-privacy-taxonomy-eid.pdf) draft paper (first part of a "Systematization of Knowledge" paper on e-ID), and the zkSecurity security review. Report PDFs in the [latest release](https://github.com/eid-privacy/zkp-reports/releases/tag/latest). |
 
 ## Our Code
 
