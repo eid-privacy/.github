@@ -16,8 +16,7 @@ SD-JWT / ECDSA-P256 based credential systems, running on a phone.
 | --- | --- |
 | [eid-privacy.github.io](https://github.com/eid-privacy/eid-privacy.github.io) | Technical blog of the project: [eid-privacy.github.io](https://eid-privacy.github.io/). |
 | [zkp-vault](https://github.com/eid-privacy/zkp-vault) | Knowledge vault on ZKP papers, proof systems, primitives, and tooling. Rendered at [eid-privacy.github.io/zkp-vault](https://eid-privacy.github.io/zkp-vault/). |
-| [taxonomy-eid](https://github.com/eid-privacy/taxonomy-eid) | [Taxonomy of Digital Identity Systems](https://github.com/eid-privacy/taxonomy-eid/releases/latest/download/taxonomy-eid-paper.pdf), the first part of a "Systematization of Knowledge" paper on e-ID. |
-| [zkp-reports](https://github.com/eid-privacy/zkp-reports) | Grant reports (MS2, final MS4), the e-ID taxonomy draft paper, and the zkSecurity security review. Report PDFs in the [latest release](https://github.com/eid-privacy/zkp-reports/releases/tag/latest). |
+| [zkp-reports](https://github.com/eid-privacy/zkp-reports) | Grant reports (MS2, final MS4), the [Taxonomy of Digital Identity Systems](https://github.com/eid-privacy/zkp-reports/releases/download/latest/taxonomy-eid-paper.pdf) draft paper (first part of a "Systematization of Knowledge" paper on e-ID), and the zkSecurity security review. Report PDFs in the [latest release](https://github.com/eid-privacy/zkp-reports/releases/tag/latest). |
 
 ## Our Code
 
@@ -28,6 +27,7 @@ SD-JWT / ECDSA-P256 based credential systems, running on a phone.
 | [zkp-android](https://github.com/eid-privacy/zkp-android) | Android app generating and verifying Noir proofs (UltraHONK via mopro) on the phone. |
 | zkp-android-spartan _(coming soon)_ | Android app benchmarking proof generation and verification with the Spartan backend. |
 | [ark-tom256](https://github.com/eid-privacy/ark-tom256) | The Tom-256 curve for arkworks, whose order equals the base field of P-256. |
+| [knowledge-graph](https://github.com/eid-privacy/knowledge-graph) | Python tool building a citation knowledge graph of ZKP papers from CrossRef and OpenCitations. |
 | [flakes](https://github.com/eid-privacy/flakes) | Nix flakes (with a Cachix binary cache) for pinned Noir, Barretenberg, and `nargo-t256` versions, usable from devbox. |
 | [SWIYU-Demo](https://github.com/eid-privacy/SWIYU-Demo) | Issuer / verifier proof of concept on top of the SWIYU infrastructure. |
 
@@ -36,3 +36,4 @@ SD-JWT / ECDSA-P256 based credential systems, running on a phone.
 | Repository | Content |
 | --- | --- |
 | [noir](https://github.com/eid-privacy/noir/tree/tom-256) | Fork of [noir-lang/noir](https://github.com/noir-lang/noir). The `tom-256` branch adds the Tom-256 / P-256 support used by `spartan-backend` (`nargo-t256`). |
+| [vega-prover](https://github.com/eid-privacy/vega-prover/tree/raw-serde) | Fork of [microsoft/vega-prover](https://github.com/microsoft/vega-prover). The `raw-serde` branch stores the precomputed prover state as zstd-framed raw memory, so it loads ~5x faster in `spartan-backend`. |
