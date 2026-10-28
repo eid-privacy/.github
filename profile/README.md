@@ -44,7 +44,6 @@ BibTeX for the reports: [zkp-reports](https://github.com/eid-privacy/zkp-reports
 | [zkp-android](https://github.com/eid-privacy/zkp-android) | Android app generating and verifying Noir proofs (UltraHONK via mopro) on the phone. |
 | [zkp-android-spartan](https://github.com/eid-privacy/zkp-android-spartan) | Android app benchmarking proof generation and verification with the Spartan backend. |
 | [ark-tom256](https://github.com/eid-privacy/ark-tom256) | The Tom-256 curve for arkworks, whose order equals the base field of P-256. |
-| [knowledge-graph](https://github.com/eid-privacy/knowledge-graph) | Python tool building a citation knowledge graph of ZKP papers from CrossRef and OpenCitations. |
 | [flakes](https://github.com/eid-privacy/flakes) | Nix flakes (with a Cachix binary cache) for pinned Noir, Barretenberg, and `nargo-t256` versions, usable from devbox. |
 | [SWIYU-Demo](https://github.com/eid-privacy/SWIYU-Demo) | Issuer / verifier proof of concept on top of the SWIYU infrastructure. |
 
